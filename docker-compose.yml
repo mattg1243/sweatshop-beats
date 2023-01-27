@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  gateway:
+    image: sb-gateway:latest
+    ports:
+      - "8000:8000"
+  user:
+    image: sb-user:latest
+    ports:
+      - "8080:8080"
+  auth:
+    image: sb-auth:latest
+    ports:
+      - "8081:8081"
+  beats:
+    image: sb-beats:latest
+    ports:
+      - "8082:8082"

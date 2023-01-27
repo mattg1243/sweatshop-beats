@@ -1,0 +1,18 @@
+[submodule "beats"]
+	path = beats
+	url = ./beats
+[submodule "user"]
+	path = user
+	url = ./user
+[submodule "gateway"]
+	path = gateway
+	url = ./gateway
+[submodule "protobuf"]
+	path = protobuf
+	url = ./protobuf
+[submodule "frontend"]
+	path = frontend
+	url = ./frontend
+[submodule "auth"]
+	path = auth
+	url = ./auth
